@@ -9,7 +9,7 @@ using Microsoft.Extensions.Options;// kurulan library
 
 namespace DataAccsesLayer.Concrete
 {
-    public class Context:DbContext//
+    public class Context: DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder OptionsBuilder)//protected olmasının sebebi
         {
