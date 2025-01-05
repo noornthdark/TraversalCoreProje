@@ -7,7 +7,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccsesLayer.Abstract 
 {
-    public interface IDestination : IGenericDal<Destination> //generic yapı ile bütün tanımlanan metodları görür.
+    public interface IDestinationDal : IGenericDal<Destination> //generic yapı ile bütün tanımlanan metodları görür.
     { 
     
     }
